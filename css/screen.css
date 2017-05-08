@@ -1,7 +1,7 @@
 html {
   font-family: Arial;
   background: #fff;
-  margin-left: 5em;
+  margin-left: 2em;
   border-left: dotted #FF365E;
 }
 
@@ -23,22 +23,19 @@ header {
 h1 {
   margin-top: 2em;
   margin-left: .5em;
-  !padding-bottom: .75em;
-  !border-bottom: solid #C0C0C0;
 }
 
 li {
   margin-top: 2.5em;
-  margin-left: 2em;
+  margin-left: .3em;
   margin-bottom: 3em;
 }
 
 p {
   font: 1.2em/2 Arial;
   margin-top: 1.5em;
-  margin-left: 3em;
-  margin-right: 9em;
-  !margin-bottom: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 #be {
@@ -48,4 +45,20 @@ p {
 #last {
   margin-top: 3em;
   margin-bottom: 3em;
+}
+
+@media (min-width: 45em) {
+  html {
+    font-family: Arial;
+    background: #fff;
+    margin-left: 5em;
+    border-left: dotted #FF365E;
+  }
+
+  p {
+    font: 1.2em/2 Arial;
+    margin-top: 1.5em;
+    margin-left: 3em;
+    margin-right: 9em;
+  }
 }
