@@ -1,0 +1,51 @@
+html {
+  font-family: Arial;
+  background: #fff;
+  margin-left: 5em;
+  border-left: dotted #FF365E;
+}
+
+body {
+  background-image: url("../img/paper.jpg");
+}
+
+ul {
+  list-style: none;
+  margin-top: 3em;
+}
+
+header {
+  margin-left: 0em;
+  color: #6495ed;
+  border-bottom: solid #C0C0C0;
+}
+
+h1 {
+  margin-top: 2em;
+  margin-left: .5em;
+  !padding-bottom: .75em;
+  !border-bottom: solid #C0C0C0;
+}
+
+li {
+  margin-top: 2.5em;
+  margin-left: 2em;
+  margin-bottom: 3em;
+}
+
+p {
+  font: 1.2em/2 Arial;
+  margin-top: 1.5em;
+  margin-left: 3em;
+  margin-right: 9em;
+  !margin-bottom: 4em;
+}
+
+#be {
+  margin-bottom: -1em;
+}
+
+#last {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
